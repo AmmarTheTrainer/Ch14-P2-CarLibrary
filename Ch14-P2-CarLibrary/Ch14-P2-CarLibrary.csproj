@@ -34,7 +34,11 @@
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
+<<<<<<< HEAD
     <AssemblyOriginatorKeyFile>CarLibraryKeys.snk</AssemblyOriginatorKeyFile>
+=======
+    <AssemblyOriginatorKeyFile>abc.snk</AssemblyOriginatorKeyFile>
+>>>>>>> 8f90d272e207aeaf5db6976c46b642999b14e182
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -53,7 +57,11 @@
     <Compile Include="DerivedCars.cs" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <None Include="CarLibraryKeys.snk" />
+=======
+    <None Include="abc.snk" />
+>>>>>>> 8f90d272e207aeaf5db6976c46b642999b14e182
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
