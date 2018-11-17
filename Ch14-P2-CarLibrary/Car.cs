@@ -8,7 +8,12 @@ using System.Windows.Forms;
 namespace Ch14_P2_CarLibrary
 {
     public enum MusicMedia
+    {
+        musicCd, // 0
+        musicTape, // 1
         musicRadio, // 2
+        musicMp3 // 3
+    }
 
     // Represents the state of the engine.
     public enum EngineState
