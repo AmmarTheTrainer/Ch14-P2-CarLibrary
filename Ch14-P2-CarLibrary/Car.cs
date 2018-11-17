@@ -3,9 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Ch14_P2_CarLibrary
 {
+    public enum MusicMedia
+        musicRadio, // 2
+
     // Represents the state of the engine.
     public enum EngineState
     { engineAlive, engineDead }
@@ -24,5 +28,11 @@ namespace Ch14_P2_CarLibrary
         {
             PetName = name; MaxSpeed = maxSp; CurrentSpeed = currSp;
         }
+
+        public void TurnOnRadio(bool musicOn ,MusicMedia mm )
+        {
+            MessageBox.Show("radio working...");
+        }
+
     }
 }
